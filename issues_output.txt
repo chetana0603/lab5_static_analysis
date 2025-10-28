@@ -1,0 +1,18 @@
+# Static Analysis Issues (Lab 5)
+
+| Tool | Line(s) | Code/Rule | Description (what & why) | Fix (what you changed) | Severity |
+|------|----------|-----------|--------------------------|------------------------|-----------|
+| Bandit |  |  | : >> Issue: [B110:try_except_pass] Try, Except, Pass detected. |  |  |
+| Bandit |  |  | : >> Issue: [B307:blacklist] Use of possibly insecure function - consider using safer ast.literal_eval. |  |  |
+| Flake8 | 2 | F401 | inventory_system.py: 'logging' imported but unused |  | Low |
+| Flake8 | 8 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 14 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 19 | E722 | inventory_system.py: do not use bare 'except' |  | Low |
+| Flake8 | 22 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 25 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 31 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 36 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 41 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 48 | E302 | inventory_system.py: expected 2 blank lines, found 1 |  | Low |
+| Flake8 | 61 | E305 | inventory_system.py: expected 2 blank lines after class or function definition, found 1 |  | Low |
+| Flake8 | 61 | W292 | inventory_system.py: no newline at end of file |  | Low |
